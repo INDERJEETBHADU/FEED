@@ -106,6 +106,12 @@
   border: none;
 }
 
+.log:hover {
+  color: #2c49fe;
+  background: #fff;
+  border: 1px solid;
+}
+
 .mt-160 {
   margin-top: 126px !important;
 }
@@ -222,7 +228,6 @@
 .main-box {
   width: 100%;
   border-radius: 30px;
-  background: #fff;
   padding: 30px;
   box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.1);
 }
@@ -361,6 +366,7 @@
   background: #2c49fe;
   border: none;
   margin: 7px 7px 7px 0px7;
+  transition: 300ms linear;
 }
 
 .post {
