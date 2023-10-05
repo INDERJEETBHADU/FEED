@@ -95,6 +95,10 @@
   font-size: 16px;
 }
 
+.txt-ellipse {
+  text-overflow: ellipsis;
+}
+
 .log {
   padding: 11px 28px;
   gap: 10px;
@@ -153,8 +157,6 @@
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.1);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .card2 {
@@ -163,8 +165,6 @@
   border-radius: 20px;
   background: #fff;
   box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.1);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .mt-32 {
@@ -185,7 +185,7 @@
 
 .card3 {
   width: 100%;
-  width: 171px;
+  /* max-width: 171px; */
   border-radius: 20px;
 
   background-color: #eaedff;
@@ -376,10 +376,6 @@
   text-align: center;
 }
 
-.textarea {
-  width: 100% !important;
-}
-
 .box3 {
   width: 100%;
   padding: 16px 16px;
@@ -545,8 +541,6 @@ ul {
 @media (min-width: 576px) {
   .card1 {
     width: 65%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .card2 {
